@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <div class="navi">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <svg class="logo_svg" width="229.001" height="203.002" viewBox="0 0 229.001 203.002">
+              <path d="M6.7,203A6.692,6.692,0,0,1,0,196.325V6.681A6.7,6.7,0,0,1,6.7,0H222.307A6.7,6.7,0,0,1,229,6.681V196.325A6.694,6.694,0,0,1,222.307,203Zm4.018-10.684H218.289V10.687H10.713Zm125.51-41.134c0-11.54,7.391-19.233,18.427-19.233a22.194,22.194,0,0,1,11.249,3.1c.43.213.645.586.483.959l-3.536,7.427a.67.67,0,0,1-.068.167.7.7,0,0,1-.95.259,11.9,11.9,0,0,0-6.215-1.5c-4.819,0-8.035,3.527-8.035,8.816S150.793,160,155.612,160a11.9,11.9,0,0,0,6.215-1.5.956.956,0,0,1,.167-.067.7.7,0,0,1,.852.5l3.536,7.423c.161.376-.054.749-.483.963a22.191,22.191,0,0,1-11.249,3.1C143.613,170.414,136.223,162.724,136.223,151.184ZM63.1,169.565a.485.485,0,0,1-.213-.646L75,133.446a1.624,1.624,0,0,1,1.286-.693H87.209a1.63,1.63,0,0,1,1.286.693l12.1,35.472a.5.5,0,0,1,.05.27.485.485,0,0,1-.533.426H89.51a1.247,1.247,0,0,1-1.122-.7l-1.61-5.608H76.709L75.1,168.919a1.252,1.252,0,0,1-1.126.7H63.37a.443.443,0,0,1-.052,0A.477.477,0,0,1,63.1,169.565ZM78.85,155.67h5.787l-2.892-10.148Zm53.569,13.945h-9.268a1.464,1.464,0,0,1-1.125-.7l-9.32-16.612v16.559a.777.777,0,0,1-.806.749h-9.48a.762.762,0,0,1-.748-.749V133.556a.775.775,0,0,1,.748-.8h9.268a1.416,1.416,0,0,1,1.231.693l9.268,16.616V133.556a.817.817,0,0,1,.752-.8h9.509a.79.79,0,0,1,.776.8v35.309a.781.781,0,0,1-.779.75Zm37.764,0c-.374,0-.748-.426-.855-.8V133.5a.6.6,0,0,1,0-.156.676.676,0,0,1,.748-.593h24.376a.828.828,0,0,1,.854.749v8.12a.8.8,0,0,1-.854.746H180.469v4.22h11.468a.641.641,0,0,1,.583.7l-.746,7.48a.94.94,0,0,1-.913.693H180.469V160h14.623a.768.768,0,0,1,.8.693v8.173a.818.818,0,0,1-.8.749Zm-136.7,0a.811.811,0,0,1-.747-.8V133.556a.809.809,0,0,1,.747-.8H45.909c11.354,0,18.908,7.32,18.908,18.431,0,11-7.555,18.431-18.908,18.431ZM43.764,160H46.55c4.125,0,6.909-3.527,6.909-8.816s-2.784-8.816-6.909-8.816H43.764Zm114.273-45.144a1.816,1.816,0,0,1-1.788-1.662V82.051L129.907,34.744c-.594-1.069.239-1.9,1.314-1.9h24.792a3.115,3.115,0,0,1,2.732,1.9l9.777,21.4,9.775-21.4a3.125,3.125,0,0,1,2.742-1.9h24.792c1.072,0,1.905.831,1.308,1.9L180.8,82.051v31.143a1.816,1.816,0,0,1-1.788,1.662Zm-55.187,0a1.808,1.808,0,0,1-1.784-1.662V78.247L89.028,113.073a3.61,3.61,0,0,1-2.98,1.783H72.938a3.607,3.607,0,0,1-2.98-1.783L57.918,78.247v34.947a1.809,1.809,0,0,1-1.787,1.662H34.081a1.7,1.7,0,0,1-1.674-1.662V34.627a1.728,1.728,0,0,1,1.674-1.783H58.993a5.024,5.024,0,0,1,4.051,2.376l16.45,45.407L95.941,35.22a5.022,5.022,0,0,1,4.053-2.376H124.9a1.726,1.726,0,0,1,1.667,1.783v78.567a1.7,1.7,0,0,1-1.667,1.662Z" fill="#ebce7d"/>
+            </svg>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">ГОЛОВНА</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ПРО НАС</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ВІДЕО</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ПРАЙС</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a> -->
+                <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul> -->
+              <!-- </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#">КОНТАКТИ</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="asset/961337947_0_131_2500_1537_1920x0_80_0_0_14cdfbdccc8853001b26b54b9da9a4bf.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="asset/by-M-A-Lemire-2019-from-Show-Alegria-Cirque-du-Soleil-cover.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="asset/Cirque-du-Soleil-2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+
+  <div class="slide_movie">
+    <iframe src="https://www.youtube.com/embed/O14P2PMtYoM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+
+
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="asset/images.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Контемп</h5>
+                <p class="card-text">- це жанр танцювального перформансу, який розвинувся в середині двадцятого століття і з тих пір став одним з домінуючих жанрів для формально підготовлених танцюристів у всьому світі, з особливою популярністю в США та Європі.</p>
+                <a href="#" class="btn btn-primary">ПОДИВИТИСЬ ВІДЕО</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="asset/images.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Акробатика</h5>
+                <p class="card-text">- це виконання людиною вправ на рывновагу, спритності та координації рухів.</p>
+                <a href="#" class="btn btn-primary">ПОДИВИТИСЬ ВІДЕО</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="asset/images.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Акробатика</h5>
+                <p class="card-text">- це виконання людиною вправ на рывновагу, спритності та координації рухів.</p>
+                <a href="#" class="btn btn-primary">ПОДИВИТИСЬ ВІДЕО</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="asset/images.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Акробатика</h5>
+                <p class="card-text">- це виконання людиною вправ на рывновагу, спритності та координації рухів.</p>
+                <a href="#" class="btn btn-primary">ПОДИВИТИСЬ ВІДЕО</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="asset/images.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Контемп</h5>
+                <p class="card-text">- це жанр танцювального перформансу, який розвинувся в середині двадцятого століття і з тих пір став одним з домінуючих жанрів для формально підготовлених танцюристів у всьому світі, з особливою популярністю в США та Європі.</p>
+                <a href="#" class="btn btn-primary">ПОДИВИТИСЬ ВІДЕО</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="asset/images.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Акробатика</h5>
+                <p class="card-text">- це виконання людиною вправ на рывновагу, спритності та координації рухів.</p>
+                <a href="#" class="btn btn-primary">ПОДИВИТИСЬ ВІДЕО</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="asset/images.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Акробатика</h5>
+                <p class="card-text">- це виконання людиною вправ на рівновагу, спритності та координації рухів.</p>
+                <a href="#" class="btn btn-primary">ПОДИВИТИСЬ ВІДЕО</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="asset/images.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Акробатика</h5>
+                <p class="card-text">- це виконання людиною вправ на рывновагу, спритності та координації рухів.</p>
+                <a href="#" class="btn btn-primary">ПОДИВИТИСЬ ВІДЕО</a>
+              </div>
+            </div>
+          </div>
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+
+
+  <footer class="footer">
+    <div class="footer_inner">
+      <div class="footer_left">
+        <ul class="footer_contact_list">
+          <li class="footer_contacts_item">
+            <div class="footer_contacts_title">Контакти</div>
+          </li>
+          <li class="footer_contacts_item"> Tel.
+            <a class="footer_cocntacts_link" href="Тел.:380979508465">+380979508465</a>
+          </li>
+          <li class="footer_contacts_item"> E-mail.
+            <a class="footer_cocntacts_link" href="mailto:hwarang88@inbox.ru">hwarang88@inbox.ru</a>
+          </li>
+          <li class="footer_contacts_item"> Адреса: вул.Небесної сотні 29/35 (5 поверх)
+          </li>
+        </ul>
+      </div>
+      <div class="footer_right">
+        <div class="social">
+          <a class="social_link" href="https://www.instagram.com/mydancekremenchug/" target="_blank">
+            <img class="social_icon" src="asset/Instagram_icon-icons.com_66804.svg" alt="insta">
+          </a>
+        </div>
+        <!-- <ul class="lang_list_footer">
+          <li class="lang_item_footer">
+            <a class="lang_link_footer" href="#">EN</a>
+          </li>
+          <li class="lang_item_footer">
+            <a class="lang_link_footer" href="#">RU</a>
+          </li>
+        </ul> -->
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
