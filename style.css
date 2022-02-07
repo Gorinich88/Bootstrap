@@ -5,7 +5,7 @@
   background-color: #014743;
   padding: 0;
   margin: 0;
-  height: 120px;
+  height: 100%;
 }
 .logo_svg {
   width: 100px;
@@ -23,6 +23,9 @@
 .navbar-brand {
   padding-left: 40px;
   margin-top: 20px;
+}
+.navi .navbar-nav .nav-link {
+  padding-left: 30px;
 }
 .slide_movie {
   /* height: 500px; */
@@ -55,7 +58,7 @@
   background-color: #014743;
 }
 .carousel-inner {
-  padding-top: 20px;
+  
 
 }
 .carousel-item {
