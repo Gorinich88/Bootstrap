@@ -31,7 +31,7 @@
                 <a class="nav-link" href="#">ПРО НАС</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ВІДЕО</a>
+                <a class="nav-link" href="#slide_movie">ВІДЕО</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">ПРАЙС</a>
@@ -48,7 +48,7 @@
                 </ul> -->
               <!-- </li> -->
               <li class="nav-item">
-                <a class="nav-link" href="#">КОНТАКТИ</a>
+                <a class="nav-link" href="#footer">КОНТАКТИ</a>
               </li>
             </ul>
             <!-- <form class="d-flex">
@@ -103,7 +103,7 @@
   </section>
 
 
-  <div class="slide_movie">
+  <div class="slide_movie" id="slide_movie">
     <iframe src="https://www.youtube.com/embed/O14P2PMtYoM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 
@@ -120,7 +120,33 @@
                 <div class="card-body">
                   <h5 class="card-title">Контемп</h5>
                   <p class="card-text"> - це жанр танцювального перформансу, який розвинувся в середині двадцятого століття і з тих пір став одним з домінуючих жанрів для формально підготовлених танцюристів у всьому світі, з особливою популярністю в США та Європі.</p>
-                  <a href="#" class="btn btn-primary">ПОДИВИТИСЬ ВІДЕО</a>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      ПОДИВИТИСЬ ВІДЕО
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal_movie">
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel1">Контемп</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                      
+                                <iframe width="800" height="450" src="https://www.youtube.com/embed/O14P2PMtYoM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      
+                            </div>
+                            <!-- <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>
@@ -129,8 +155,36 @@
                 <img src="asset/acro.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Акробатика</h5>
-                  <p class="card-text"> - це виконання людиною вправ на рывновагу, спритності та координації рухів.</p>
-                  <a href="#" class="btn btn-primary">ПОДИВИТИСЬ ВІДЕО</a>
+                  <p class="card-text"> - це виконання людиною вправ на рівновагу, спритність та координацію рухів.</p>
+                    <!-- Button trigger modal -->
+                    <div class="acro">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                        ПОДИВИТИСЬ ВІДЕО
+                      </button>
+                      
+                      <!-- Modal -->
+                      <div class="modal_movie">
+                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel1">Акробатика</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="acro modal-body">
+                      
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/OeUcP_I9Xpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      
+                              </div>
+                              <!-- <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                              </div> -->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>
@@ -140,7 +194,33 @@
                 <div class="card-body">
                   <h5 class="card-title">Художня гімнастика</h5>
                   <p class="card-text"> - це вид спорту, що включає фізичні вправи, що вимагають рівноваги, сили, гнучкості, спритності, координації та витривалості.</p>
-                  <a href="#" class="btn btn-primary">ПОДИВИТИСЬ ВІДЕО</a>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                      ПОДИВИТИСЬ ВІДЕО
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal_movie">
+                      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Художня гімнастика</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                      
+                              <iframe width="560" height="315" src="https://www.youtube.com/embed/tcf3I_I0MD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      
+                            </div>
+                            <!-- <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>
@@ -150,7 +230,33 @@
                 <div class="card-body">
                   <h5 class="card-title">Stretching</h5>
                   <p class="card-text"> - це форма фізичної вправи, при якій певний м'яз або сухожилля (або група м'язів) навмисно згинається або розтягується з метою покращення відчутної еластичності м'язів і досягнення комфортного м'язового тонусу.</p>
-                  <a href="#" class="btn btn-primary">ПОДИВИТИСЬ ВІДЕО</a>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                      ПОДИВИТИСЬ ВІДЕО
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal_movie">
+                      <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Stretching</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                      
+                                <iframe width="800" height="450" src="https://www.youtube.com/embed/O14P2PMtYoM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      
+                            </div>
+                            <!-- <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>
@@ -160,22 +266,22 @@
           <div class="row">
             <div class="col">
               <div class="card" style="width: 18rem;">
-                <img src="asset/східні танці.jpg" class="card-img-top" alt="...">
+                <img src="asset/lady style.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Східні тінці</h5>
-                  <p class="card-text"> – сучасна форма давнього танцю, поширеного на Середньому Сході та в арабських країнах. Танець живота має багато різновидів, що залежать від країни та регіона, це стосується як костюмів, так і танцювальних рухів. Окремі нові стилі з'явилися на Заході, коли танець почав набирати популярність.Східні танці це не лише танець живота бо це і мова жестів та тіла</p>
+                  <h5 class="card-title">Lady style/жіночий стиль</h5>
+                  <p class="card-text"> – це танець для дівчат, які не допускають компромісів, за основу береться жіночність та сексуальність.</p>
                   <!-- <a href="#contemp" class="btn btn-primary">ПОДИВИТИСЬ ВІДЕО</a> -->
     
 
 
                     <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">
   ПОДИВИТИСЬ ВІДЕО
 </button>
 
 <!-- Modal -->
 <div class="modal_movie">
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -207,7 +313,33 @@
                 <div class="card-body">
                   <h5 class="card-title">Бачата</h5>
                   <p class="card-text"> — музичний стиль і парний танець домініканського походження. Танець широко поширений у країнах Карибського басейну.</p>
-                  <a href="#" class="btn btn-primary">ПОДИВИТИСЬ ВІДЕО</a>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                      ПОДИВИТИСЬ ВІДЕО
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal_movie">
+                      <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Бачата</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                      
+                                <iframe width="800" height="450" src="https://www.youtube.com/embed/O14P2PMtYoM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      
+                            </div>
+                            <!-- <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>
@@ -217,7 +349,33 @@
                 <div class="card-body">
                   <h5 class="card-title">Body-balet</h5>
                   <p class="card-text"> — це комплекс вправ на розтяжку, заняття у хореографічного верстата.</p>
-                  <a href="#" class="btn btn-primary">ПОДИВИТИСЬ ВІДЕО</a>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                      ПОДИВИТИСЬ ВІДЕО
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal_movie">
+                      <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Body-balet</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                      
+                                <iframe width="800" height="450" src="https://www.youtube.com/embed/O14P2PMtYoM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      
+                            </div>
+                            <!-- <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>
@@ -227,7 +385,33 @@
                 <div class="card-body">
                   <h5 class="card-title">Zumba</h5>
                   <p class="card-text">- це танцювальна фітнес-программа на основі відомих латиноамериканських ритмів.</p>
-                  <a href="#" class="btn btn-primary">ПОДИВИТИСЬ ВІДЕО</a>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+                      ПОДИВИТИСЬ ВІДЕО
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal_movie">
+                      <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Zumba</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                      
+                                <iframe width="800" height="450" src="https://www.youtube.com/embed/O14P2PMtYoM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      
+                            </div>
+                            <!-- <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>
@@ -248,7 +432,7 @@
 
 
 
-  <footer class="footer">
+  <footer class="footer" id="footer">
     <div class="footer_inner">
       <div class="footer_left">
         <ul class="footer_contact_list">
